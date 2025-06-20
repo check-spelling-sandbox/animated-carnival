@@ -13,3 +13,5 @@ jobs:
 
   indirect:
     uses: duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@v1.0.0
+    with:
+      extension_name: something
