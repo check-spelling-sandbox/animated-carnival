@@ -1,0 +1,9 @@
+{
+  "include": [
+    {
+      "duckdb_arch": "linux_amd64",
+      "container": "ubuntu:18.04",
+      "vcpkg_triplet": "x64-linux"
+    }
+  ]
+}
