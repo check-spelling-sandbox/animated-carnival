@@ -5,10 +5,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  direct:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
       - uses: actions/upload-artifact@v3
+
+  indirect:
+    uses: duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@v1.0.0
